@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*Header*/
+header{
+    background-color: aliceblue;
+}
+.flex-nav{
+    display: flex;
+    justify-content: flex-end;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.flex-nav li{
+    margin: 10px;
+    padding: 20px;
+}
+/*Section-1*/
+.section-1{
+    display: flex;
+    justify-content: space-around;
+}
+.content-1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.content-1 h2{
+    margin: 15px;
+}
+.content-1 h1{
+    margin: 15px;
+}
+.content-1 p{
+    margin: 15px;
+}
+.content-1 button{
+    margin: 15px;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+}
+
+/*Section-2*/
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.container-1 div{
+    margin: 15px;
+    padding: 50px;
+    border: 2px solid blueviolet;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fa-brands{
+    font-size: 100px;
+}
+
+/*Section-3*/
+.section-3{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+}
+.section-3 h2{
+    font-size: 20px;
+}
+/*Section-4*/
+.section-4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.container-2 div{
+    margin: 15px;
+    padding: 50px;
+    border: 2px solid blueviolet;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Section-5*/
+.section-5{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-github{
+    font-size: 20px;
+    color: blueviolet;
+    background-color: aliceblue;
+    border-radius: 100%;
+    padding: 5px;
+}
+.fa-instagram{
+    font-size: 20px;
+    color: blueviolet;
+    background-color: aliceblue;
+    border-radius: 100%;
+    padding: 5px;
+}
+.fa-envelope{
+    font-size: 20px;
+    color: blueviolet;
+    background-color: aliceblue;
+    border-radius: 100%;
+    padding: 5px;
+}
+/*Footer*/
+.footer{
+    background-color: blueviolet;
+}
+.nav-footer{
+    display: flex;
+    justify-content: center;
+}
+.nav-footer li{
+    margin: 15px;
+    text-align: center;
+}
+.web-footer{
+    display: flex;
+    justify-content: center;
+}
+.web-footer li{
+    display:flex ;
+    flex-direction: column;
+    margin: 15px;
+    text-align: center;
+}
