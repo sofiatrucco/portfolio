@@ -5,52 +5,81 @@
 }
 /*Header*/
 header{
+    display: flex;
     background-color: aliceblue;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-end;
 }
 .flex-nav{
     display: flex;
     justify-content: flex-end;
+    padding-right: 180px;
+    font-family: 'Mouse Memoirs', sans-serif;
 }
 li{
     list-style: none;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(11, 11, 11);
+    
 }
 .flex-nav li{
     margin: 10px;
-    padding: 20px;
+    padding: 8px;
+    font-family: sans-serif;
 }
+.boton-uno{
+    color: white;
+}
+
 /*Section-1*/
 .section-1{
     display: flex;
     justify-content: space-around;
+    padding: 40px;
+    margin: 40px;
 }
 .content-1{
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    padding: 80px;
+    
 }
 .content-1 h2{
     margin: 15px;
+    font-family: sans-serif;
 }
 .content-1 h1{
     margin: 15px;
+    font-family: sans-serif;
+    height: 60px;
+    font-size: 60px;
+    
 }
 .content-1 p{
     margin: 15px;
+    font-family: sans-serif;
 }
 .content-1 button{
     margin: 15px;
+    color: white;
 }
 button{
-    width: 150px;
-    padding: 10px;
+    margin: 10px;
+    padding: 8px;
+    width: 120px;
     color: white;
-    background-color: blueviolet;
-    border-color: blueviolet;
+    background-color: #8338ec;
+    border-color: #8338ec;
+    border-radius: 20px;
+    
+}
+.boton-dos{
+    color: white;
 }
 
 /*Section-2*/
@@ -59,6 +88,9 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
+    margin: 30px;
+    padding: 50px;
 }
 .container-1{
     display: flex;
@@ -67,9 +99,9 @@ button{
     
 }
 .container-1 div{
-    margin: 15px;
+    margin: 40px 0px 0px;
     padding: 50px;
-    border: 2px solid blueviolet;
+    border: 2px solid aliceblue;
     width: 500px;
     text-align: center;
     display: flex;
@@ -79,13 +111,37 @@ button{
 .fa-brands{
     font-size: 100px;
 }
+h2{
+    font-family: sans-serif;
+}
+.fa-html5{
+    color: orangered;
+}
+.fa-css3{
+    color: rgb(0, 136, 255);
+}
+.fa-sass{
+    color: rgb(245, 103, 212);
+}
+.fa-js{
+    color: rgb(248, 248, 62);
+}
+.fa-react{
+    color: rgb(84, 207, 249);
+}
+.fa-git{
+    color: orangered;
+}
 
 /*Section-3*/
 .section-3{
-    background-color: blueviolet;
+    background-color: #8338ec;
     text-align: center;
-    font-size: 25px;
-    padding: 50px;
+    font-size: 50px;
+    padding: 100px;
+    color: aliceblue;
+    font-family: sans-serif;
+    
 }
 .section-3 h2{
     font-size: 20px;
@@ -95,23 +151,24 @@ button{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 50px;
 }
-.container-2{
+.grid{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
+    flex-direction: row;
+    margin: 20px;
+    padding: 30px;
+    border: 2px;
 }
-.container-2 div{
-    margin: 15px;
-    padding: 50px;
-    border: 2px solid blueviolet;
-    width: 500px;
+.p{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-family: sans-serif;
 }
+.a{
+    margin: 10px;
+    padding: 10px;
+}
+
 
 /*Section-5*/
 .section-5{
@@ -121,44 +178,95 @@ button{
 
 .fa-github{
     font-size: 20px;
-    color: blueviolet;
+    color: #8338ec;
     background-color: aliceblue;
     border-radius: 100%;
     padding: 5px;
 }
 .fa-instagram{
     font-size: 20px;
-    color: blueviolet;
+    color: #8338ec;
     background-color: aliceblue;
     border-radius: 100%;
     padding: 5px;
 }
 .fa-envelope{
     font-size: 20px;
-    color: blueviolet;
+    color: #8338ec;
     background-color: aliceblue;
     border-radius: 100%;
     padding: 5px;
 }
+.formulario .grupo{
+    margin-bottom: 60px;
+}
+.formulario .grupo > input {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  .formulario .grupo > label {
+    display: block;
+    color: var(--colorOscuro);
+    font-size: 14px;
+    margin-bottom: 5px;
+  } 
+  .formulario .radio input,
+.formulario .checkbox input {
+  margin-right: 10px;
+}
+
+.formulario .checkbox label {
+  margin-right: 20px;
+}
+.content-contact{
+    margin: 30px;
+    padding: 30px;
+    border: 3px;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+.content-escribe{
+    margin: 30px;
+    padding: 30px;
+    border: 3px;
+    background-color: aliceblue;
+    font-family: sans-serif;
+}
+
+
 /*Footer*/
 .footer{
-    background-color: blueviolet;
+    background-color: #8338ec;
 }
 .nav-footer{
     display: flex;
     justify-content: center;
+    background-color: #8338ec;
 }
 .nav-footer li{
     margin: 15px;
     text-align: center;
+    font-family: sans-serif;
 }
 .web-footer{
     display: flex;
     justify-content: center;
+    font-family: sans-serif;
+    background-color: #8338ec;
 }
 .web-footer li{
     display:flex ;
     flex-direction: column;
     margin: 15px;
     text-align: center;
+    font-family: sans-serif
+}
+.frase{
+    text-align: center;
+    background-color: #8338ec;
+    font-family: sans-serif;
 }
